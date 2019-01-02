@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 remote_theme : mmistakes/minimal-mistakes
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "FITEC PROJECT"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Jake Jane Jenny Joy"
 description              : "An amazing website."
 url                      : "https://OHHYEONJEONG.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
