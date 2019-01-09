@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Team 9"
+  name             : "Team 9 - Smart Building IOT"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "We are amazing people but you're not."
-  location         : "Somewhere"
+  bio              : "Jaekwon Lim   Youbin Lee   Hyeonjeong Oh   Hyemin Jeon"
+  location         : "K-Square"
   email            :
   links:
     - label: "Email"
