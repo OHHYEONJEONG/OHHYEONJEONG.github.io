@@ -15,6 +15,12 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 remote_theme : mmistakes/minimal-mistakes
+# Author Settings
+author1: "Jaekwon Lim" # add your name
+author2: "Youbin Lee"
+author3: "Hyeonjeong Oh"
+author4: "Hyemin Jeon"
+
 # Site Settings
 locale                   : "en-US"
 title                    : "FITEC PROJECT"
