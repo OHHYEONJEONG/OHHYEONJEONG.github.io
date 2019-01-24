@@ -1,6 +1,6 @@
 ---
-title: "2018-01-17 bluetooth android connect"
-date: 2018-01-17 08:26:28 -0400
+title: "2018-01-13 bluetooth android connect"
+date: 2018-01-13 08:26:28 -0400
 ---
 
 <아두이노, 안드로이드 블루투스 통신>
