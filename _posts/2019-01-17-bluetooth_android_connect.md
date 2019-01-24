@@ -18,9 +18,11 @@ date: 2018-01-17 08:26:28 -0400
 
 -안드로이드 블루투스 선택 화면
 
+
 ![image](https://user-images.githubusercontent.com/32701768/51690626-13a45300-1fc7-11e9-8fed-17f17fcb463d.png)
 
 -안드로이드 블루투스 연결 성공 화면
+
 
 ![image](https://user-images.githubusercontent.com/33784135/51690438-abee0800-1fc6-11e9-8e12-aa8629e8310e.png)
 
