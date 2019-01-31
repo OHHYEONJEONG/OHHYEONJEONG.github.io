@@ -1,5 +1,5 @@
 ---
-title: "2018-01-17 Connecting Arduino with Gyro Sensor"
+title: "2018-01-25 Project meeting "
 date: 2018-01-25 08:26:28 -0400
 ---
 
