@@ -3,14 +3,14 @@ title: "2018-01-30 Call & message"
 date: 2018-01-30 08:26:28 -0400
 ---
 
-1. 위급 상황이 발생했을 때 자동으로 911에 call하는 기능
+#1. 위급 상황이 발생했을 때 자동으로 911에 call하는 기능
 
-[결과 화면]
+##[결과 화면]
 
 ![image](https://user-images.githubusercontent.com/32701768/52235697-e5f6be00-2892-11e9-9447-525d5af447b4.png)
 
-[코드]
-public void call() {
+##[코드]
+">public void call() {
         Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + call_number));
         if (ActivityCompat.checkSelfPermission(mcontext, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
@@ -23,16 +23,17 @@ public void call() {
             return;
         }
         mcontext.startActivity(i);
-    }
+    }"
     
-2. 위급 상황이 발생했을 때 db에 등록되어 있는 이웃에게 메시지를 보내는 기능
+#2. 위급 상황이 발생했을 때 db에 등록되어 있는 이웃에게 메시지를 보내는 기능
 
-[결과 화면]
+##[결과 화면]
 
 ![image](https://user-images.githubusercontent.com/32701768/52235759-0888d700-2893-11e9-9006-bf06cde6a040.png)
 
-[코드]
- public void sendMessage(int typeofemergency) {
+##[코드]
+
+ ">public void sendMessage(int typeofemergency) {
         db = new Database(mcontext);
         sqLiteDatabase = db.getWritableDatabase();
         Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM address", null);
@@ -56,19 +57,19 @@ public void call() {
                 e.printStackTrace();
             }
         }
-    }
+    }"
 
    
 
-3. db에 이웃을 추가하는 기능
+#3. db에 이웃을 추가하는 기능
 
-[결과 화면]
+##[결과 화면]
 
 ![image](https://user-images.githubusercontent.com/32701768/52235830-3b32cf80-2893-11e9-9110-54126a9a7d5b.png)
 
 ![image](https://user-images.githubusercontent.com/32701768/52235842-4128b080-2893-11e9-9957-e59563d67207.png)
 
-[코드]
+##[코드]
 
 https://github.com/jakeoneijk/FiTec
 (Database.java, PhonenumAdd.java, PhonenumberSave.java) 참조
