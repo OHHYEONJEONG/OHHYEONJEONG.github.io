@@ -5,6 +5,9 @@ And send a data to android from pulse sensor through arduino.
 
 
 #2
+get data from pulse sensor
+
+![image](https://user-images.githubusercontent.com/34241840/52434108-986d9180-2adc-11e9-9e4c-a5c95fdeb7c8.png)
 
 #3
 set a range what is emergent. 
