@@ -1,3 +1,8 @@
+---
+title: "2018-02-07 Call & message"
+date: 2018-02-07 08:26:28 -0400
+---
+
 #1
 Connecting pulse sensor with arduino.
 And send a data to android from pulse sensor through arduino. 
